@@ -1,7 +1,11 @@
 {
   "name": "shopping-cart-di-example",
-  "module": "index.ts",
+  "module": "src/with.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/with.ts",
+    "dev:without": "bun run --watch src/without.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
